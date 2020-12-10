@@ -16,8 +16,8 @@ module.exports = {
     try {
       // A gateway defines the peers used to access Fabric networks
       device = deviceModule({
-        keyPath: '../IoT/certs/abd0ca768f-private.pem.key',
-        certPath: '../IoT/certs/abd0ca768f-certificate.pem.crt',
+        keyPath: '../IoT/certs/abd0ca768f-private.pem',
+        certPath: '../IoT/certs/abd0ca768f-certificate.pem',
         caPath: '../IoT/certs/AmazonRootCA1.pem',
         clientId: 'client-id-1',
         region: undefined,
